@@ -5,7 +5,7 @@ import Show from './components/Show';
 const App = () => {
   const [data, setData] = useState([]);
   const [searchData, setSearchData] = useState('');
-  const [sortData, setSortData] = useState('time');
+  const [sortData, setSortData] = useState('date');
   const [pageData, setPageData] = useState(1);
   const [orderData, setOrderData] = useState(true); // true for DESC
 
