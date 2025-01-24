@@ -12,7 +12,7 @@ const App = () => {
   const getData = async () => {
     try {
       // Construct the URL with query parameters
-      const url = new URL('http://localhost:5000');
+      const url = new URL('https://customer-83789re73-chethan2464s-projects.vercel.app');
       url.searchParams.set('searchData', searchData);
       url.searchParams.set('sortData', sortData);
       url.searchParams.set('pageData', pageData);
